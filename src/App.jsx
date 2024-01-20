@@ -1,11 +1,16 @@
 import React from 'react'
-import Header from './components/header/header'
+import { Header, Info, Testimonial, Topic, Blog, Footer,} from './Components'
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-    </div>
+    <>
+      <Header />
+      <Topic />
+      <Info />
+      <Blog />
+      <Testimonial/>
+      <Footer/>
+    </>
   )
 }
 
