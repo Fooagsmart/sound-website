@@ -40,3 +40,34 @@
     left: 8rem;
     bottom: 8.5rem;
 }
+
+@media (max-width: 720px) {
+    #info .content-container{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    #info .content-container img{
+        height: 100px;
+    }
+
+    #info .Wrapper::after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 8px;
+        background: var(--red-color);
+        left: 6rem;
+        bottom: 33.5rem;
+    }
+     
+    #info .Wrapper::before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 60px;
+        background:var(--red-color);
+        left: 6rem;
+        bottom: 30rem;
+    }
+}
