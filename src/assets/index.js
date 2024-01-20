@@ -16,4 +16,22 @@ import console1 from "./console-1.webp";
 import console2 from "./console-2.avif";
 import console3 from "./console-3.avif";
 
-export {close, console, dropdown, facebook, female, instagram, male, right, twitter,test1, test2, test3, firstbackground, female2, console1, console2, console3}
+export {
+  close,
+  console,
+  dropdown,
+  facebook,
+  female,
+  instagram,
+  male,
+  right,
+  twitter,
+  test1,
+  test2,
+  test3,
+  firstbackground,
+  female2,
+  console1,
+  console2,
+  console3,
+};
