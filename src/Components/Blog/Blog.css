@@ -46,3 +46,20 @@
     padding: 16px 24px;
     margin: 0;
 }
+
+
+.btn-container{
+    display: flex;
+    justify-content: right;    
+}
+
+.all-post-btn{
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 4px 32px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #000;
+}
