@@ -49,6 +49,10 @@ section h2::after {
     bottom: -10px;
 }
 
+section h2.light::after{
+    background: var(--yellow-color);
+}
+
 .black {
     background: #000;
 }
