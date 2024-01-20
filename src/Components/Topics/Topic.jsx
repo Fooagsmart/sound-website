@@ -10,7 +10,7 @@ const Topic = () => {
       <div className='wrapper'>
          <h2>What will you learn?</h2>
          <div className='content-container'>
-          <ul>
+          <ul className='topics-list'>
             <li onMouseEnter={()=> setCurrentImage(console3)}>What are Frequencies</li>
             <li onMouseEnter={() => setCurrentImage(console2)}>Using the Daw</li>
             <li onMouseEnter={() => setCurrentImage(console3)}>Vocals Processing</li>
@@ -23,7 +23,6 @@ const Topic = () => {
             <img src={currentImage}></img>
           </div>
          </div>
-         <img src={right} className='right'></img>
       </div>
     </section>
   )

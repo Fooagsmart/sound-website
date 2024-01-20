@@ -15,6 +15,8 @@ import female2 from "./female2.webp";
 import console1 from "./console1.webp";
 import console2 from "./console2.avif";
 import console3 from "./console3.avif";
+import play from "./play.png";
+import graduate from "./graduate.png";
 
 export {
   close,
@@ -34,4 +36,6 @@ export {
   console1,
   console2,
   console3,
+  play,
+  graduate
 };
