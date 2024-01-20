@@ -1,0 +1,51 @@
+.flex-footer {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    margin: 24px 0;
+    justify-content: space-between;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 8px 16px;
+}
+
+.social img {
+    width: 30%;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copywrite {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer h3 {
+    color: var(--red-color);
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
