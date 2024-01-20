@@ -1,4 +1,4 @@
-.info-content {
+#info .info-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,11 @@
     gap: 4px;
 }
 
-.info-content .amount {
+#info .Wrapper {
+    position: relative;
+}
+
+#info .info-content .amount {
     font-weight: 800;
     font-size: 40px;
 }
@@ -15,4 +19,24 @@
     font-family: "Alegreya", serif;
     font-weight: 700;
     font-size: 30px;
+}
+
+#info .Wrapper::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 8px;
+    background: var(--red-color);
+    left: 8rem;
+    bottom: 12rem;
+}
+ 
+#info .Wrapper::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 60px;
+    background:var(--red-color);
+    left: 8rem;
+    bottom: 8.5rem;
 }
