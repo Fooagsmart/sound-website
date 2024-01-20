@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <header>
       <div className='wrapper'>
+        <Navbar/>
         <div className='cta'>
         <p className='course-name'>Sound Design MasterClass</p>
         <h1>Learn The Art Of Sound Desgin</h1>
