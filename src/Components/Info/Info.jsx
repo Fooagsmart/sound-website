@@ -7,15 +7,15 @@ const Info = () => {
     <section id='info' className='dark-gray'>
       <div className='Wrapper'>
         <div className='content-container'>
-          <div className='grad'>
+          <div className='info-content'>
             <img src={graduate} className='grad-img'></img>
-            <h1>23,000+</h1>
-            <p>Students</p>
+            <div className='amount'>23,000+</div>
+            <div className='type'>Students</div>
           </div>
-          <div className='play'>
+          <div className='info-content'>
             <img src={play} className='play-img'></img>
-            <h1>26 Hrs</h1>
-            <p>Video Content</p>
+            <div className='amount'>26 Hrs</div>
+            <div className='type'>Video Content</div>
           </div>
         </div>
       </div>
