@@ -26,10 +26,10 @@ const Navbar = () => {
         <img src={close} alt="" />
       </div>
       <ul className='menu-item '>
-      <li><a href='#topic' className='detail'>Course Details</a></li>
-        <li><a href='#info' className='about'>About</a></li>
-        <li><a href='#blog' className='blog'>Blog</a></li>
-        <li><a href='#testimonial' className='people'>Testimonials</a></li>
+      <li><a href='#topic' onClick={() => setIsActive(false)}  className='detail'>Course Details</a></li>
+        <li><a href='#info'onClick={() => setIsActive(false)}  className='about'>About</a></li>
+        <li><a href='#blog'onClick={() => setIsActive(false)}  className='blog'>Blog</a></li>
+        <li><a href='#testimonial'onClick={() => setIsActive(false)}  className='people'>Testimonials</a></li>
       </ul>
     </div> </>
   )
