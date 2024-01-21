@@ -4,7 +4,7 @@ import {facebook,twitter,instagram} from "../../assets"
 
 const Footer = () => {
   return (
-    <footer id='footer' className='pink'>
+    <footer id='footer' className='black'>
       <div className='wrapper'>
         <div className='flex-footer'>
           <div className='links'>
@@ -40,6 +40,9 @@ const Footer = () => {
             </li>
             <li><a href='#'> +234 906 0982 855</a></li>
           </ul>
+        </div>
+        <div className='copywrite-m'>
+          <p>This website is designed by Fooagsmart © 2024 </p>
         </div>
       </div>
       </div>

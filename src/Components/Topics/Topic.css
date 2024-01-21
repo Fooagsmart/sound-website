@@ -1,9 +1,9 @@
- .topic-image img {
+#topic .topic-image img {
     width: 550px;
     object-fit: cover;
 }
 
-.topic-image::after {
+#topic .topic-image::after {
     content: "";
     position: absolute;
     width: 80px;
@@ -13,7 +13,7 @@
     bottom: -15px;
 }
  
-.topic-image::before {
+#topic .topic-image::before {
     content: "";
     position: absolute;
     width: 8px;
@@ -23,13 +23,13 @@
     bottom: -15px;
 }
 
- .topics-list {
+#topic .topics-list {
     list-style: none;
     margin: 0;
     padding: 0;
     margin-left: 24px;
 }
- .topics-list li {
+#topic .topics-list li {
     font-family: "Alegreya";
     font-weight: 400;
     font-size: 20px;
@@ -37,7 +37,7 @@
     position: relative;
 }
 
-.topics-list li::before {
+#topic .topics-list li::before {
     content: "";
     position: absolute;
     background: var(--red-color);
@@ -49,13 +49,13 @@
     transform: translateY(-50);
 }
 
-.content-container {
+#topic .content-container {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
 }
 
-.wrapper {
+#topic .wrapper {
     position: relative;
 }
 
@@ -63,12 +63,12 @@
 /* tablet version */
 
 @media (max-width: 1040px) {
-    .topic-image img {
+    #topic .topic-image img {
         width: 385px;
         height: 280px;
     }
 
-    .topic-image::after {
+    #topic .topic-image::after {
         content: "";
         position: absolute;
         width: 80px;
@@ -78,7 +78,7 @@
         bottom: 10px;
     }
      
-    .topic-image::before {
+    #topic .topic-image::before {
         content: "";
         position: absolute;
         width: 8px;
@@ -92,12 +92,12 @@
 /* smartphone version */
 
 @media (max-width: 720px){
-    .topic-image img {
+    #topic .topic-image img {
         display: none;
     }
 
     
-.topic-image::after {
+    #topic .topic-image::after {
     content: "";
     position: absolute;
     width: 80px;
@@ -107,7 +107,7 @@
     bottom: -15px;
 }
  
-.topic-image::before {
+#topic .topic-image::before {
     content: "";
     position: absolute;
     width: 8px;

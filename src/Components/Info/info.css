@@ -15,7 +15,7 @@
     font-size: 40px;
 }
 
-.info-content .type {
+#info .info-content .type {
     font-family: "Alegreya", serif;
     font-weight: 700;
     font-size: 30px;
