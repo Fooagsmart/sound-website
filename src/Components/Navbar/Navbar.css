@@ -63,10 +63,16 @@ a .red {
         display: flex;
         position: fixed;
         z-index: 600;
-        background-color: #000;
+        background: var(--dark-color);
         left: 0;
         right: 0;
         padding: 60px 32px;
+        transform: translateY(-100%);
+        transition: all 1200s cubic-bezier(0.3, 0.96,0.59.0.95);
+    }
+
+    .mobile-menu-container.active {
+        transform: translateY(0);
     }
     
     .mobile-menu-container .menu-item {
